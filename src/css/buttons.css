@@ -18,9 +18,10 @@
     font-size: 2em;
     background: none;
     border: none;
-    color: brown;
+    color: gray;
 }
 #buttons #like-button:hover{
     cursor: pointer;
-    color: #bd3333;
+    transform: scale(1.05);
+
 }
