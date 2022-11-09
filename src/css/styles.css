@@ -1,0 +1,27 @@
+@import url("default-settings.css");
+#buttons{
+    width: 80%;
+    height: 18%;
+    margin: 1.5%;
+    border: 2px solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#buttons #add-cart-button{
+    width: 40%;
+    height: 70%;
+}
+#buttons #like-button{
+    width: 10%;
+    height: 70%;
+    font-size: 2em;
+    background: none;
+    border: none;
+    color: brown;
+}
+#buttons #like-button:hover{
+    cursor: pointer;
+    color: #bd3333;
+}
