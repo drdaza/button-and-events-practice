@@ -17,7 +17,6 @@ function modification(){
         console.log("like")
         LikeButton.style.color="brown";
     }
-
 }
 
 function load() {
@@ -27,3 +26,13 @@ function load() {
 
 }
 document.addEventListener("DOMContentLoaded",load,false);
+function testEvents(){
+    let list = document.getElementById("first");
+    list.childNodes.forEach((element) => {
+        element.addEventListener("click", (e)=>{
+            e.target.classList.toggle("activo");
+        })
+    });
+    
+}
+testEvents();
